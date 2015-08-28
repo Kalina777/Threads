@@ -43,7 +43,7 @@ public class IOThread implements Runnable{
                 }
                 finally{
                     endTime = System.nanoTime();
-                                System.out.println("Thread " + threadName +" end time is " + startTime);
+                                System.out.println("Thread " + threadName +" end time is " + endTime);
                                 System.out.println("Thread " + threadName +" Runtime is " + (endTime-startTime) + " nano seconds.");
  
                 }
